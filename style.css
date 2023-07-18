@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* header section css starts  */
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-contents{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 32px;
+}
+.nav-contents li{
+    list-style: none;
+}
+.nav-contents li a, .follow-us-btn a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.gamer-g{
+    color: #ff42a5;
+}
+.follow-us-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+}
+.fa-youtube{
+    color: red;
+    font-size:30px; 
+}
+.fa-tiktok{
+    font-size:30px; 
+}
+/* header section css ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================responsive design ======================= */
+
+/*===================== moblile devices======================  */
+
+/* header sectin responsive css */
+@media screen and (max-width:576px) {
+    nav,
+    .nav-contents{
+        flex-direction: column;
+    }
+    nav,
+    .nav-contents{
+        gap: 62px;
+    }
+}
+
