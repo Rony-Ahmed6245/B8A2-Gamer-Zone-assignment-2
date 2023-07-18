@@ -190,6 +190,71 @@ nav{
 
 
 
+/* carrer section css starts */
+.carrers-section{ 
+    background-color: #ff42a5;
+    background-image: url("images/Group\ 65.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:54%;
+}
+.carrers-container{
+    max-width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height:630px;
+}
+.carrers-content{
+    margin-left: 50px;
+    width: 50%;
+}
+.carrers-content >h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+.carrers-content >p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    text-align: justify;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.side-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px; 
+}
+.right-side-text{
+    text-align: right;
+}
+.other{
+    margin-top: 40px;
+    border-radius: 48px;
+    background: #FFF;
+    color: #F948B2;
+}
+
+/* carrer section css ends*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -205,7 +270,8 @@ nav{
 /* common style  */
     nav,
     .nav-contents,
-    .gamer-section{
+    .gamer-section
+    {
         flex-direction: column;
     }
 
@@ -236,6 +302,31 @@ nav{
     .gammer-content{
         text-align: center;
         padding: 0 20px;
+    }
+
+    .carrers-section{
+        background-size: 80%;
+        
+        background-position-y: 900px;
+        background-position-x:center ;
+    }
+    .carrers-section{
+        margin: 200px 0px;
+        padding-bottom:100px;
+        padding-top: 100px;
+    }
+    .carrers-container{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+       
+       
+    }
+    .carrers-content{
+        width:80%;
+        align-items: center;
+        margin-left: 0;
     }
 }
 
