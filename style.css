@@ -91,7 +91,7 @@ nav{
     background-image: url("images/Group\ 14.png");
     background-repeat: no-repeat;
     background-position: left top;
-    background-size:60%;
+    background-size:65%;
 }
 .banner-container{
     max-width: 1330px;
@@ -126,7 +126,9 @@ nav{
 .banner-content >ul{
     margin-bottom: 41px;
 }
-
+.banner-img img{
+    width: 100%;
+}
 .blue-btn{
     background: #4EC5F7;
     margin-left: 20px;
@@ -141,6 +143,50 @@ nav{
 /* banner section css ends  */
 
 
+/* gamer section css starts  */
+.gamer-container{
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-section{
+    max-width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0px;
+}
+.gammer-content{
+    text-align: right;
+}
+.gammer-content > h1{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+.gammer-content > p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.gammer-content > h2{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+.gammer-content > h4{
+    color: #534C64;
+    margin-top: 24px;
+}
+.gamer-img img{
+    width: 800px;
+}
+/* gamer section css ends  */
 
 
 
@@ -155,16 +201,21 @@ nav{
 
 /* header sectin responsive css */
 @media screen and (max-width:576px) {
+    
+/* common style  */
     nav,
-    .nav-contents{
+    .nav-contents,
+    .gamer-section{
         flex-direction: column;
     }
+
+/* nav section css  */
     nav,
     .nav-contents{
         gap: 62px;
     }
 
-
+/* banner section css  */
     .banner-container{
         flex-direction: column-reverse;
         gap: 50px;
@@ -175,6 +226,16 @@ nav{
     }
     .banner-img img{
         width: 100%;
+    }
+
+
+/* gamer section css  */
+    .gamer-img img{
+        width:100%;
+    }
+    .gammer-content{
+        text-align: center;
+        padding: 0 20px;
     }
 }
 
