@@ -19,7 +19,7 @@ body{
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
     border: 0;
@@ -52,7 +52,7 @@ nav{
     cursor: pointer;
 }
 .logo h1{
-    font-size: 45px;
+    font-size:2.5em;
     font-weight: 700;
 }
 .nav-contents{
@@ -67,7 +67,7 @@ nav{
 .nav-contents li a, .follow-us-btn a{
     text-decoration: none;
     color: #3C354F;
-    font-size: 18px;
+    font-size: 1.12em;
     font-weight: 500;
 }
 .gamer-g{
@@ -86,11 +86,11 @@ nav{
 }
 .fa-youtube{
     color: red;
-    font-size:30px; 
+    font: size 1.8em;; 
     cursor: pointer;
 }
 .fa-tiktok{
-    font-size:30px; 
+    font-size:1.8em; 
     cursor: pointer;
 }
 /* ========================================================
@@ -118,12 +118,12 @@ nav{
 }
 .banner-content> h2{
     color: #0B0223;
-    font-size: 48px;
+    font-size: 2.6em;
     font-weight: 600;
     text-transform: uppercase;
 }
 .banner-content> h1{
-    font-size: 95px;
+    font-size: 5em;
     font-weight: 800;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -134,7 +134,7 @@ nav{
 .banner-content >ul li{
     list-style: none;
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: 500;
     text-transform:capitalize;
     margin-bottom: 17px;
@@ -182,7 +182,7 @@ nav{
     text-align: right;
 }
 .gammer-content > h1{
-    font-size: 48px;
+    font-size: 2.6em;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
@@ -191,19 +191,19 @@ nav{
 }
 .gammer-content > p{
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.12em;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 32px;
 }
 .gammer-content > h2{
     color: #534C64;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 800;
 }
 .gammer-content > h4{
     color: #534C64;
-    margin-top: 24px;
+    margin-top: 1.5em;
 }
 .gamer-img img{
     width: 800px;
@@ -237,14 +237,14 @@ nav{
 .online-game-section p{
     color: #534C64;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: 400;
     margin-bottom: 48px;
 }
 
 .overlay-card-content h3{
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: 500;
 }
 .overlay-card img{
@@ -281,11 +281,11 @@ nav{
 }
 .overlay .fa-circle-play{
     color: white;
-    font-size: 45px;
+    font-size:2.75em;
 }
 .overlay p{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: 600;
     color: #F948B2;
 }
@@ -330,14 +330,14 @@ nav{
     width: 483px;
 }
 .play-game-content h1{
-    font-size: 48px;
+    font-size: 2.8em;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 .play-game-content p{
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 400;
 }
 
@@ -371,12 +371,12 @@ nav{
 }
 .carrers-content >h1{
     color: #FFF;
-    font-size: 48px;
+    font-size: 2.75em;
     font-weight: 700;
 }
 .carrers-content >p{
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 400;
     line-height: 30px; 
     text-align: justify;
@@ -388,7 +388,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: 600;
     line-height: 40px; 
 }
@@ -451,7 +451,7 @@ nav{
 }
 .game h1{
     color: #0B0223;
-    font-size: 20px;
+    font-size:1.2em;
     font-weight: 600;
     transition: all .5s;
 }
@@ -487,7 +487,7 @@ footer{
     gap: 60px;
     margin-top:60px;
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: 600;
 }
 .footer-list2{
@@ -496,7 +496,7 @@ footer{
     gap: 60px;
     margin-top: 60px;
     color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 500;
     margin-bottom: 28px;
     list-style: none;
@@ -517,7 +517,7 @@ footer{
     margin-top: 60px;
 }
 .footer-contact a .fa-brands{
-    font-size: 40px;
+    font-size: 2em;
 }
 .fa-twitter,
 .fa-facebook, 
@@ -674,9 +674,7 @@ footer{
 
 
 
-
-
-
+/* .popular-games-section  */
 
     .popular-games-section{
         height:100%;
@@ -690,7 +688,7 @@ footer{
     }
     .game h1{
         color: #0B0223;
-        font-size: 8px;
+        font-size: .5em;
         font-weight: 400;
     }
     .game{
