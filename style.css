@@ -12,7 +12,6 @@ body{
     font-family: 'Work Sans';
 }
 
-
 /*===================== primary-btn======================*/
 .primary-btn{
     padding: 20px 40px;
@@ -26,7 +25,6 @@ body{
     outline: 0;
     cursor: pointer;
 }
-
 
 
 /* =======================================================
@@ -98,8 +96,6 @@ nav{
 =========================================================== */
 
 
-
-
 /* =======================================================
                2.. banner section css starts 
 ========================================================== */
@@ -160,7 +156,6 @@ nav{
 /* =======================================================
                 banner section css ends 
 ========================================================== *
-
 
 
 /*========================================================
@@ -299,9 +294,6 @@ nav{
 ========================================================== */
 
 
-
-
-
 /* =======================================================
               5... play game section css starts
 ==========================================================  */
@@ -344,8 +336,6 @@ nav{
 /* =======================================================
                 play game section css ends
 ==========================================================  */
-
-
 
 
 /* =======================================================
@@ -408,7 +398,6 @@ nav{
 ==========================================================*/
 
 
-
 /*==========================================================
           7...  popular game section css starts
 ============================================================*/
@@ -459,7 +448,6 @@ nav{
 /*==========================================================
             popular game section css ends
 ============================================================*/
-
 
 
 /*==========================================================
@@ -527,20 +515,8 @@ footer{
     color: #fff;
 }
 /*==========================================================
-            footer css ends
+                footer css ends
 ============================================================*/
-
-
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* ++++++++++++++++++++++++++++main css end+++++++++++++++++++++++++++++ */
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-
-
-
-
 
 
 
@@ -550,7 +526,9 @@ footer{
 /* +++++++++++++++++++responsive design starts++++++++++++++++++++++++++++++*/
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-/*=========== mobile devices================  */
+/*===========================================================================
+                                   mobile devices
+=============================================================================  */
 @media screen and (max-width:576px) {
     nav,
     .nav-contents,
@@ -559,16 +537,14 @@ footer{
         flex-direction: column;
     }
 
-
-
-/* nav section css  */
+/*============================== nav section css ======================== */
     nav,
     .nav-contents{
         gap: 62px;
     }
 
 
-/* banner section css  */
+/*========================== banner section css===========================  */
     .banner-container{
         flex-direction: column-reverse;
         gap: 50px;
@@ -580,9 +556,7 @@ footer{
     .banner-img img{
         width: 100%;
     }
-
-
-/* gamer section css  */
+/* =========================gamer section css ============================== */
     .gamer-img img{
         width:100%;
     }
@@ -591,9 +565,7 @@ footer{
         padding: 0 20px;
     }
 
-
-
-/* carrer section  */
+/* =======================carrer section==============================  */
     .carrers-section{
         background-size: 70%;
         background-position-y: 98%;
@@ -615,9 +587,7 @@ footer{
         margin-left: 0;
     }
 
-
-
-/* online game section  */
+/*========================== online game section ====================== */
 
     .overlay-cards{
         grid-template-columns: repeat(1,  1fr);
@@ -628,8 +598,7 @@ footer{
         margin: 0 auto;
     }
 
-
-/* play game  */
+/* ============================play game section======================  */
     .play-game{
         flex-direction: column;
         margin-top: 30%;
@@ -646,9 +615,7 @@ footer{
         margin-top:30%;
     }
 
-
-
-    /* footer section  */
+    /*======================= footer section  ======================*/
     .footer-list1{
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
@@ -672,9 +639,7 @@ footer{
         height: auto;
     }
 
-
-
-/* .popular-games-section  */
+/*============================= .popular-games-section ===================== */
 
     .popular-games-section{
         height:100%;
@@ -702,11 +667,14 @@ footer{
 
 
 
-.hide{
-    display: none;
-}
 
- /* tablet device responsive  */
+
+
+
+/*====================================================================================
+                                    tablet device
+ =====================================================================================  */
+
 @media screen and (min-width:576px) and (max-width:768px)  {
 /* ================================1..header============================= */
     nav{
@@ -739,159 +707,155 @@ footer{
     }
 
 /* ==========================2...banner================================= */
-.banner-section{
-    background-position: left center;
-    background-size:50%;
-    background-size: 70%;
-}
-.banner-container{
-    padding:20px 30px ;
-}
-.banner-content{
-    width: 100%;
-}
-.banner-content> h2{
-    font-size: 1.6em;
-    font-weight: 500;
-}
-.banner-content> h1{
-    font-size: 3em;
-    font-weight: 600;
-    margin-bottom:20px;
-}
-.banner-content >ul li{
-    font-size: 1em;
-    font-weight: 300;
-    margin-bottom: 10px;
-}
-.banner-content >ul{
-    margin-bottom:30px;
-}
-.banner-img img{
-    width: 70%;
-}
-.blue-btn{
-    margin-left: 10px;
-}
-.fa-download, .fa-circle-play{
-    color: #fca0d2;
-    margin-right: 10px;
-}
-.fa-user-group{
-    margin-right: 10px;
-}
+    .banner-section{
+        background-position: left center;
+        background-size:50%;
+        background-size: 70%;
+    }
+    .banner-container{
+        padding:20px 30px ;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-content> h2{
+        font-size: 1.6em;
+        font-weight: 500;
+    }
+    .banner-content> h1{
+        font-size: 3em;
+        font-weight: 600;
+        margin-bottom:20px;
+    }
+    .banner-content >ul li{
+        font-size: 1em;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .banner-content >ul{
+        margin-bottom:30px;
+    }
+    .banner-img img{
+        width: 70%;
+    }
+    .blue-btn{
+        margin-left: 10px;
+    }
+    .fa-download, .fa-circle-play{
+        color: #fca0d2;
+        margin-right: 10px;
+    }
+    .fa-user-group{
+        margin-right: 10px;
+    }
 
-.primary-btn{
-    padding: 10px 20px;
-    border-radius: 48px;
-    font-size: 1em;
-    font-weight: 300;
-}
+    .primary-btn{
+        padding: 10px 20px;
+        border-radius: 48px;
+        font-size: 1em;
+        font-weight: 300;
+    }
 
-/* ================================3...We are gamer section ================================= */
+    /* ================================3...We are gamer section ================================= */
 
-.gamer-section{
-    flex-direction: column;
-    padding: 90px 0px;
-    gap:60px;
-}
-.gammer-content{
-    text-align: center;
-    padding: 20px;
-}
-.gamer-img img{
-    width: 100%;
-}
-/* ==================================4...online game section============================ */
-.online-game-section{
-    margin: 60%  auto 0px auto;
-}
-.overlay-cards{
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px; 
-    padding: 20px; 
-}
-.online-game-section h1{
-    font-size: 1.5em;
-    font-weight: 400;
-}
-.online-game-section p{
-    font-size: 1.2em;
-    font-weight: 400;
+    .gamer-section{
+        flex-direction: column;
+        padding: 90px 0px;
+        gap:60px;
+    }
+    .gammer-content{
+        text-align: center;
+        padding: 20px;
+    }
+    .gamer-img img{
+        width: 100%;
+    }
+    /* ==================================4...online game section============================ */
+    .online-game-section{
+        margin: 60%  auto 0px auto;
+    }
+    .overlay-cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px; 
+        padding: 20px; 
+    }
+    .online-game-section h1{
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+    .online-game-section p{
+        font-size: 1.2em;
+        font-weight: 400;
 
-}
+    }
 
-.overlay-card-content h3{
-    font-size: 1.2em;
-    font-weight: 500;
-}
+    .overlay-card-content h3{
+        font-size: 1.2em;
+        font-weight: 500;
+    }
 
-/*============================== 5...Play Games Online Anywhere section ================================= */
-.play-game{
-    flex-direction: column-reverse;
-    gap: 100px;
-}
+    /*============================== 5...Play Games Online Anywhere section ================================= */
+    .play-game{
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
 
-.fast-img {
-    width: 80%;
-}
+    .fast-img {
+        width: 80%;
+    }
 
-/*============================== 6... carrier section design ====================================== */
+    /*============================== 6... carrier section design ====================================== */
 
-.carrers-section{ 
-    background-image: none;
-    background-color: #F948B2;
-    margin-top: 200px;
-    padding-bottom: 50px;
-    padding-top: 20px;
-}
-.carrers-container{
-    max-width: 1330px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-    height:630px;
-}
-.carrers-content{
-    width: 80%;
-}  
+    .carrers-section{ 
+        background-image: none;
+        background-color: #F948B2;
+        margin-top: 200px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    .carrers-container{
+        max-width: 1330px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        height:630px;
+    }
+    .carrers-content{
+        width: 80%;
+    }  
 
-/* ==========================8... footer design starts =================================== */
+    /* ==========================8... footer design starts =================================== */
 
+    .footer-list1{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-top:60px;
+        font-size: 1em;
+    }
+    .footer-list2{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        margin-top: 40px;
+    }
+    .footer-container p{
+        color: rgba(255, 255, 255, 0.60);
+        font-weight: 400;
+    }
 
-.footer-list1{
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin-top:60px;
-    font-size: 1em;
-}
-.footer-list2{
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    margin-top: 40px;
-}
-.footer-container p{
-    color: rgba(255, 255, 255, 0.60);
-    font-weight: 400;
-}
-
-.footer-contact{
-    grid-template-columns: repeat(4, 1fr);
-    gap: 60px;
-}
-.footer-contact a .fa-brands{
-    font-size: 1.5em;
-    cursor: pointer;
-}
-
-
+    .footer-contact{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 60px;
+    }
+    .footer-contact a .fa-brands{
+        font-size: 1.5em;
+        cursor: pointer;
+    }
 
 }
 
-
-
+/*================================================The End ========================================= */
 
 
 
