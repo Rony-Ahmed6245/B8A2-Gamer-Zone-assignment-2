@@ -30,7 +30,7 @@ body{
 
 
 /* =======================================================
-                header section css starts 
+                1..header section css starts 
 =========================================================== */
 header{
     background: #FFF;
@@ -101,7 +101,7 @@ nav{
 
 
 /* =======================================================
-                banner section css starts 
+               2.. banner section css starts 
 ========================================================== */
 .banner-section{
     background-image: url("images/Group\ 14.png");
@@ -164,7 +164,7 @@ nav{
 
 
 /*========================================================
-                gamer section css starts 
+              3..gamer section css starts 
  ========================================================= */
 .gamer-container{
     height: 600px;
@@ -214,7 +214,7 @@ nav{
 
 
 /* =======================================================
-                online game section starts 
+                4.. online game section starts 
 ========================================================== */
 .online-game-section{
     max-width: 1330px;
@@ -303,7 +303,7 @@ nav{
 
 
 /* =======================================================
-                play game section css starts
+              5... play game section css starts
 ==========================================================  */
 .play-game{
     max-width: 1330px;
@@ -349,7 +349,7 @@ nav{
 
 
 /* =======================================================
-                carrier section css starts 
+              6...  carrier section css starts 
 ==========================================================*/
 .carrers-section{ 
     background-color: #ff42a5;
@@ -410,7 +410,7 @@ nav{
 
 
 /*==========================================================
-            popular game section css starts
+          7...  popular game section css starts
 ============================================================*/
 
 .popular-games-section{
@@ -463,7 +463,7 @@ nav{
 
 
 /*==========================================================
-            footer css starts 
+           8... footer css starts 
 ============================================================*/
 
 footer{
@@ -681,7 +681,7 @@ footer{
         padding: 30px 10px;
     }
     .games{
-        justify-content: flex-start;
+        
     }
     .game img{
         width: 20px;
@@ -699,3 +699,176 @@ footer{
         transition: border .5s;
     }
 }
+
+
+
+.hide{
+    display: none;
+}
+
+ /* tablet device responsive  */
+@media screen and (min-width:576px) and (max-width:768px)  {
+/* ================================1..header============================= */
+    nav{
+        padding: 38px 20px;
+    }
+    .logo{
+        gap: 10px;
+    }
+    .logo h1{
+        font-size:1.5em;
+        font-weight: 500;
+    }
+    .nav-contents{
+        gap: 20px;
+    }
+   
+    .nav-contents li a, .follow-us-btn a{
+        font-size: 1em;
+        font-weight: 400;
+    }
+   
+    .follow-us-btn{
+        gap: 20px;
+    }
+    .fa-youtube{
+        font: size 1em;; 
+    }
+    .fa-tiktok{
+        font-size:1em; 
+    }
+
+/* ==========================2...banner================================= */
+.banner-section{
+    background-position: left center;
+    background-size:50%;
+    background-size: 70%;
+}
+.banner-container{
+    padding:20px 30px ;
+}
+.banner-content{
+    width: 100%;
+}
+.banner-content> h2{
+    font-size: 1.6em;
+    font-weight: 500;
+}
+.banner-content> h1{
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+.banner-content >ul li{
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.banner-content >ul{
+    margin-bottom:30px;
+}
+.banner-img img{
+    width: 70%;
+}
+.blue-btn{
+    margin-left: 10px;
+}
+.fa-download, .fa-circle-play{
+    color: #fca0d2;
+    margin-right: 10px;
+}
+.fa-user-group{
+    margin-right: 10px;
+}
+
+.primary-btn{
+    padding: 10px 20px;
+    border-radius: 48px;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+/* ================================3...We are gamer section ================================= */
+
+.gamer-section{
+    flex-direction: column;
+    padding: 90px 0px;
+    gap:60px;
+}
+.gammer-content{
+    text-align: center;
+    padding: 20px;
+}
+.gamer-img img{
+    width: 100%;
+}
+/* ==================================4...online game section============================ */
+.online-game-section{
+    margin: 60%  auto 0px auto;
+}
+.overlay-cards{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px; 
+    padding: 20px; 
+}
+.online-game-section h1{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.online-game-section p{
+    font-size: 1.2em;
+    font-weight: 400;
+
+}
+
+.overlay-card-content h3{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+/*============================== 5...Play Games Online Anywhere section ================================= */
+.play-game{
+    flex-direction: column-reverse;
+    gap: 100px;
+}
+
+.fast-img {
+    width: 80%;
+}
+
+/*============================== 6... carrier section design ====================================== */
+
+.carrers-section{ 
+    background-image: none;
+    background-color: #F948B2;
+    margin-top: 200px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.carrers-container{
+    max-width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    height:630px;
+}
+.carrers-content{
+    width: 80%;
+}  
+
+/* ==========================7... popular game section =================================== */
+
+
+
+
+}
+
+
+
+
+
+
+
+
