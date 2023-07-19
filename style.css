@@ -22,6 +22,7 @@ body{
     text-transform: uppercase;
     border: 0;
     outline: 0;
+    cursor: pointer;
 }
 
 
@@ -207,7 +208,6 @@ nav{
     height:630px;
 }
 .carrers-content{
-    margin-left: 50px;
     width: 50%;
 }
 .carrers-content >h1{
@@ -241,17 +241,75 @@ nav{
     border-radius: 48px;
     background: #FFF;
     color: #F948B2;
+    cursor: pointer;
 }
 
 /* carrer section css ends*/
 
 
+.hide{
+    display: none;
+}
 
-
-
-
-
-
+footer{
+    height:90vh;
+    background-color: #0b0223;
+    padding: 100px 0px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 100px; */
+}
+.footer-list1{
+    list-style: none;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 60px;
+    margin-top:60px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-list2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    list-style: none;
+}
+.footer-container p{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+}
+.footer-logo{
+    color: white;
+}
+.footer-contact{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+.footer-contact a .fa-brands{
+    font-size: 40px;
+}
+.fa-twitter,
+.fa-facebook, 
+.fa-instagram,
+.fa-linkedin-in,
+.fa-apple{
+    color: #fff;
+    /* -webkit-text-fill-color: #ff42a5; */
+}
 
 
 
@@ -311,7 +369,7 @@ nav{
         background-position-x:center ;
     }
     .carrers-section{
-        margin: 200px 0px;
+        margin: 200px 0px 0px 0px;
         padding-bottom:100px;
         padding-top: 100px;
     }
@@ -327,6 +385,25 @@ nav{
         width:80%;
         align-items: center;
         margin-left: 0;
+    }
+
+    .footer-list1{
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    .footer-list2{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .footer-contact{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    footer{
+        height: 100%;
+    }
+    footer p{
+        text-align: center;
     }
 }
 
