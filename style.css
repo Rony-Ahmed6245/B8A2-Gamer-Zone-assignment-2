@@ -1,8 +1,8 @@
-/* goole fonts link  */
+/* ===============google fonts link=======================*/
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap');
 
 
-
+/* ==================Universal css========================*/
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +11,9 @@
 body{
     font-family: 'Work Sans';
 }
-/* primary-btn  */
+
+
+/*===================== primary-btn======================*/
 .primary-btn{
     padding: 20px 40px;
     border-radius: 48px;
@@ -26,7 +28,10 @@ body{
 }
 
 
-/* header section css starts  */
+
+/* =======================================================
+                header section css starts 
+=========================================================== */
 header{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -84,10 +89,16 @@ nav{
 .fa-tiktok{
     font-size:30px; 
 }
-/* header section css ends  */
+/* ========================================================
+                header section css ends 
+=========================================================== */
 
 
-/* banner section css starts  */
+
+
+/* =======================================================
+                banner section css starts 
+========================================================== */
 .banner-section{
     background-image: url("images/Group\ 14.png");
     background-repeat: no-repeat;
@@ -121,7 +132,7 @@ nav{
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
-    text-transform: lowercase;
+    text-transform:capitalize;
     margin-bottom: 17px;
 }
 .banner-content >ul{
@@ -141,32 +152,15 @@ nav{
 .fa-user-group{
     margin-right: 12px;
 }
-/* banner section css ends  */
+/* =======================================================
+                banner section css ends 
+========================================================== *
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* gamer section css starts  */
+/*========================================================
+                gamer section css starts 
+ ========================================================= */
 .gamer-container{
     height: 600px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -200,7 +194,7 @@ nav{
 .gammer-content > h2{
     color: #534C64;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 800;
 }
 .gammer-content > h4{
     color: #534C64;
@@ -209,10 +203,14 @@ nav{
 .gamer-img img{
     width: 800px;
 }
-/* gamer section css ends  */
+/*========================================================
+                gamer section css ends 
+ ========================================================= */
 
 
-/* online game section starts  */
+/* =======================================================
+                online game section starts 
+========================================================== */
 .online-game-section{
     max-width: 1330px;
     margin: 0 auto;
@@ -290,13 +288,17 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/* =======================================================
+                online game section ends
+========================================================== */
 
 
 
 
 
-
-/* play game  */
+/* =======================================================
+                play game section css starts
+==========================================================  */
 .play-game{
     max-width: 1330px;
     margin: 0 auto;
@@ -333,20 +335,16 @@ nav{
     font-weight: 400;
 }
 
+/* =======================================================
+                play game section css ends
+==========================================================  */
 
 
 
 
-
-
-
-
-
-
-
-
-
-/* carrer section css starts */
+/* =======================================================
+                carrier section css starts 
+==========================================================*/
 .carrers-section{ 
     background-color: #ff42a5;
     background-image: url("images/Group\ 65.png");
@@ -399,10 +397,16 @@ nav{
     cursor: pointer;
 }
 
-/* carrer section css ends*/
+/* =======================================================
+                carrier section css ends
+==========================================================*/
 
 
-/* popular game section  */
+
+/*==========================================================
+            popular game section css starts
+============================================================*/
+
 .popular-games-section{
     height: 627px;
     display: flex;
@@ -428,33 +432,32 @@ nav{
     border-radius: 50px;
     padding:10px;
     background-color: #ffffff;
+    transition: border .5s;
     
 }
 .game:hover{
     border: 1px solid #ff42a5;
     padding:9px;
 }
+.game:hover h1{
+    color: #F948B2;
+}
 .game h1{
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
+    transition: all .5s;
 }
 
+/*==========================================================
+            popular game section css ends
+============================================================*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* footer css starts  */
-
+/*==========================================================
+            footer css starts 
+============================================================*/
 
 footer{
     height:90vh;
@@ -515,8 +518,17 @@ footer{
 .fa-linkedin-in,
 .fa-apple{
     color: #fff;
-    /* -webkit-text-fill-color: #ff42a5; */
 }
+/*==========================================================
+            footer css ends
+============================================================*/
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++main css end+++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
 
@@ -525,14 +537,14 @@ footer{
 
 
 
-/* =================responsive design ======================= */
 
-/*===================== moblile devices======================  */
 
-/* header sectin responsive css */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++responsive design starts++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*=========== mobile devices================  */
 @media screen and (max-width:576px) {
-    
-/* common style  */
     nav,
     .nav-contents,
     .gamer-section
@@ -540,11 +552,14 @@ footer{
         flex-direction: column;
     }
 
+
+
 /* nav section css  */
     nav,
     .nav-contents{
         gap: 62px;
     }
+
 
 /* banner section css  */
     .banner-container{
@@ -586,8 +601,6 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: left;
-       
-       
     }
     .carrers-content{
         width:80%;
@@ -596,7 +609,39 @@ footer{
     }
 
 
-/* footer section  */
+
+/* online game section  */
+
+    .overlay-cards{
+        grid-template-columns: repeat(1,  1fr);
+    }
+    
+    .overlay-card-content{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+/* play game  */
+    .play-game{
+        flex-direction: column;
+        margin-top: 30%;
+    }
+    .fast-img {
+        width:80%;
+        margin: 10%;
+    }
+    .second-img{
+        width:60%;
+    }
+    .play-game-content{
+        width: 80%;
+        margin-top:30%;
+    }
+
+
+
+    /* footer section  */
     .footer-list1{
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
@@ -626,39 +671,4 @@ footer{
     .games{
         justify-content: flex-start;
     }
-
-
-
-/* online game section  */
-
-    .overlay-cards{
-        grid-template-columns: repeat(1,  1fr);
-    }
-    
-    .overlay-card-content{
-        width: 70%;
-        margin: 0 auto;
-    }
-
-
-
-
-/* play game  */
-.play-game{
-    flex-direction: column;
-    margin-top: 30%;
-}
-.fast-img {
-    width:80%;
-    margin: 10%;
-}
-.second-img{
-    width:60%;
-}
-
-.play-game-content{
-    width: 80%;
-    margin-top:30%;
-}
-
 }
