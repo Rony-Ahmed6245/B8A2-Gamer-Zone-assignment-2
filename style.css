@@ -858,8 +858,33 @@ footer{
     width: 80%;
 }  
 
-/* ==========================7... popular game section =================================== */
+/* ==========================8... footer design starts =================================== */
 
+
+.footer-list1{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top:60px;
+    font-size: 1em;
+}
+.footer-list2{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+.footer-container p{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 400;
+}
+
+.footer-contact{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+}
+.footer-contact a .fa-brands{
+    font-size: 1.5em;
+    cursor: pointer;
+}
 
 
 
