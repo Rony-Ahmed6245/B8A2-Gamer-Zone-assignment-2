@@ -419,16 +419,17 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: #fff9fc;
+ 
 }
 .games{
     max-width: 1330px;
     margin: 0 auto;
-    display: flex;
+    display:flex;
+    flex-wrap: wrap;
     gap:20px;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-
+    
 }
 .game{
     display: flex;
@@ -439,7 +440,6 @@ nav{
     padding:10px;
     background-color: #ffffff;
     transition: border .5s;
-    
 }
 .game:hover{
     border: 1px solid #ff42a5;
@@ -672,10 +672,32 @@ footer{
         height: auto;
     }
 
+
+
+
+
+
+
     .popular-games-section{
-        height: 900px;
+        height:100%;
+        padding: 30px 10px;
     }
     .games{
         justify-content: flex-start;
+    }
+    .game img{
+        width: 20px;
+    }
+    .game h1{
+        color: #0B0223;
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .game{
+        gap: 8px;
+        border-radius: 50px;
+        padding:2px;
+        background-color: #ffffff;
+        transition: border .5s;
     }
 }
