@@ -49,6 +49,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
 }
 .logo h1{
     font-size: 45px;
@@ -81,13 +82,16 @@ nav{
     background: rgba(11, 2, 35, 0.10);
     width: 262px;
     height: 56px;
+    cursor: pointer;
 }
 .fa-youtube{
     color: red;
     font-size:30px; 
+    cursor: pointer;
 }
 .fa-tiktok{
     font-size:30px; 
+    cursor: pointer;
 }
 /* ========================================================
                 header section css ends 
@@ -134,6 +138,7 @@ nav{
     font-weight: 500;
     text-transform:capitalize;
     margin-bottom: 17px;
+    cursor: pointer;
 }
 .banner-content >ul{
     margin-bottom: 41px;
@@ -272,6 +277,7 @@ nav{
 
 .overlay-card:hover .overlay{
     opacity:1;
+    cursor: pointer;
 }
 .overlay .fa-circle-play{
     color: white;
@@ -438,6 +444,7 @@ nav{
 .game:hover{
     border: 1px solid #ff42a5;
     padding:9px;
+    cursor: pointer;
 }
 .game:hover h1{
     color: #F948B2;
