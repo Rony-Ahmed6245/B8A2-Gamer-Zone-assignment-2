@@ -812,7 +812,9 @@ footer{
         flex-direction: column-reverse;
         gap: 100px;
     }
-
+    .play-game-content{
+        text-align: center;
+    }
     .fast-img {
         width: 80%;
     }
@@ -840,19 +842,44 @@ footer{
     }  
 
     /* =========================7...popular game section======================================  */
-    
+  
+    .popular-games-section{
+        height: 300px;
+    }
+    .games{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:15px;
+        padding: 20px;
+    }
+    .game{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        padding:9px;
+    }
+
+
+    .game img{
+        width: 45px;
+    }
+    .game h1{
+        font-size:1em;
+        font-weight: 600;
+    }
 
     /* ==========================8... footer design starts =================================== */
 
     .footer-list1{
         grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
+        gap: 60px;
         margin-top:60px;
         font-size: 1em;
     }
     .footer-list2{
         grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
+        gap:60px;
         margin-top: 40px;
     }
     .footer-container p{
